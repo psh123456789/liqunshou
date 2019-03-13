@@ -27,26 +27,27 @@
 					  </li>
 				  </ul>
 		</div>
-		<!-- bannerlo -->
+		<!-- bannerlo -->  
 		<div id="bannerlo">
 			<img src="img1/login-bg_03(2).jpg">
 			<div class="deng">
 				<nav class="xuan">
-					<p><span>手机登录</span><span>账户登录</span></p>
+					
+					<p><span id="phonebtn" class="changebb">手机登录</span><span id="codebtn">账户登录</span></p>
 				</nav>
 			 <div id="phonelogin">
 				 <form action="index.html" id="phonecheck">
 				手&ensp;&ensp;机&ensp;&ensp;号: <input type="text" name="" id="phonecode" value=""/><br>
 				<span id="sss1"></span><br>
 				<div id="yzmframwork">
-					<b>随机验证码：</b><input type="text" name="yzm2" id="yzm2" value="" />
+					<b>随机验证码：</b><input type="text" name="yzm2" id="yzm2" value="" /><div id="yzmfram"></div>
 					<span id="sss2"></span><br>
 				</div>
 				随机&ensp;密码&ensp; <input type="text" name="" id="" value="" /><em>
-				获取随机验证码</em><br>
+				获取随机验证码</em><br> 
 				<span class="waer">请输入6位随机密码</sapn><br>
 				<input type="submit" name="" id="" value="登录" />
-				</from>
+				</form>
 			 </div>
 			 <div id="codelogin">
 				 <form action="index.html" id="codecheck">
@@ -55,19 +56,22 @@
 						 <i id="ii1">请输入手机号/邮箱</i>
 					 </div>
 					 <div class="mima">
-						 <span>密&ensp;&ensp;码:</span><input type="text" name="" id="" value="" /><a href="">忘记密码</a>
+						 <span>密&ensp;&ensp;码:</span><input type="text" name="" id="pwd" value="" /><a href="">忘记密码</a>
 						 <i id="ii2">请输入密码</i>
 					 </div>
 					 <div class="yanzheng">
-						 <span>验证码</span><input type="text" name="" id="" value="" />
+						 <span>验证码</span><input type="text" name="" id="qpwd" value="" />
 						 <em id="yzmfram2"></em><b>看不清</b><a href="java1script:;" class="cloginyzm">换一张</a></br>
 					 </div>
-					 <i id"ii3">请输入4位验证码</i>
+					 <i id="ii3">请输入4位验证码</i>
 					 <input type="submit" value="登录">
 					 <e>没有账户</e><a href="zuce.html">去注册</a>
 				 </form>
 			 </div>
 			</div>
 		</div>
+		<script src="js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/public.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/login.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 </html>

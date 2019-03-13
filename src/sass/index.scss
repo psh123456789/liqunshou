@@ -799,10 +799,58 @@ a {
 		 .xuan{
 			 width:400px;
 			 height:50px;
-			 bacground:yellow;
+			 background:yellow;
+			 p{
+				 line-height:50px;
+				 margin-left:40px;
+				 span{
+					 padding-left:50px;
+					 padding-right:50px;
+					 height:30px;
+					 cursor:pointer;
+				 }
+				span:nth-of-type(1){
+					background:red;
+				}
+				span:nth-of-type(2){
+					background:beige;
+				}
+			 }
 			
+		 }
+		 #phonelogin{
+			 width:400px;
+			 height:260px;
+			 background:yellow;
+			
+			 form{
+				  margin-left:40px;
+					marigi-top:20px;
+					input{
+						height:20px;
+						margin-top:20px;
+					}
+			 }
+			 
+			 
+		 }
+		 #codelogin{
+			 width:400px;
+			 height:260px;
+			 overflow: hidden;
+			  display: none;
+			 div{
+				 margin-top:20px;
+				 margin-left:10px;
+			 }
+			 div:nth-of-type(3){
+				 padding-bottom:20px;
+			 }
+			 
 		 }
 	 }
  }
- 
+ .changebbb{
+	 background:#fdfbf4 !important; height:29px !important; border-bottom:none !important;
+ }
  
