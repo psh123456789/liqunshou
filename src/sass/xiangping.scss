@@ -104,11 +104,17 @@
 					 margin-right:20px;
 				 }
 			}
-			input{
-				margin-left:20px;
-				margin-top:20px;
-				background:red;
-			}
+			
+	}
+	.gou{
+		width:200px;
+		padding-left:20px;
+		padding-top:20px;
+		img{
+			width:110px;
+			height:110px;
+		}
+	
 	}
 }
 .zhong{
@@ -153,6 +159,11 @@
 			width:100%;
 		}
 	}
+}
+#gouwu{
+  position:fixed;
+	right:0;
+	top:300px;
 }
 .bottom {
   height: 328px;
