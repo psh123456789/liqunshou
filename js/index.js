@@ -164,3 +164,6 @@ $(".banner .left ul li").hover(function(){
 		opacity:'0'
 	},2000)
 })
+$("#gouwu").click(function(){
+	location.href="buy.html";
+})
