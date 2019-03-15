@@ -69,9 +69,13 @@ a {
     width: 1196px;
     margin: 0 auto; }
     .top .top1 ul li {
-      float: left; }
+      float: left; 
+			margin-left:10px;
+			}
     .top .top1 p {
-      float: right; }
+      float: right; 
+			
+			}
 
 #nav {
   height: 110px;
@@ -204,7 +208,13 @@ a {
 
 .banner .right dl {
   margin-left: 20px;
-  margin-top: 30px; }
+  margin-top: 30px; 
+
+	
+	}
+	.banner .right dl:hover {
+	}
+	
 
 .banner .right dl dd {
   margin-top: 20px; }
@@ -329,7 +339,8 @@ a {
 #bian {
   height: 644px;
   width: 1196px;
-  margin: 0 auto; }
+  margin: 0 auto; 
+	}
 
 #bian .bian1 {
   height: 58px;
@@ -419,10 +430,25 @@ a {
 
 #bian .bian2 .right dl {
   float: left;
-  width: 225px;
-  height: 294px;
-  margin-right: 11px; }
-
+  width: 224px;
+  height: 290px;
+  margin-right: 11px; 
+		border:1px solid white;
+		margin-top:3px;
+	  margin-right:4px;
+	  margin-left:4px;
+		opacity:1;
+		img{
+			display:block;
+			width:100%;
+		}
+	
+	}
+#bian .bian2 .right dl:hover{
+	border:1px solid red;
+	opacity:0.5;
+	
+}
 #bian .bian2 .right dl dd {
   margin-left: 20px; }
 
@@ -434,7 +460,9 @@ a {
 #jiu .bian1 {
   height: 58px;
   background: #009144;
-  margin-right: 5px; }
+  margin-right: 5px;
+	 margin-top:4px;
+	 }
 
 #jiu .bian1 p:nth-child(1) {
   float: left;
@@ -508,7 +536,9 @@ a {
 .mu {
   height: 644px;
   width: 1196px;
-  margin: 0 auto; }
+  margin: 0 auto; 
+	margin-bottom:10px;
+	}
 
 .mu .bian1 {
   height: 58px;
@@ -570,7 +600,13 @@ a {
   float: left;
   width: 225px;
   height: 294px;
-  margin-right: 11px; }
+  padding-right: 11px; 
+	border:1px solid white;
+	}
+.mu .bian2 .right dl:hover{
+	border:1px solid red;
+	opacity:0.5;
+}	
 
 .mu .bian2 .right dl dd {
   margin-left: 20px; }
@@ -640,7 +676,9 @@ a {
   float: left;
   width: 225px;
   height: 294px;
-  margin-right: 11px; }
+  margin-right: 11px; 
+	
+	}
 
 .ban .bian2 .right dl dd {
   margin-left: 20px; }
@@ -834,7 +872,7 @@ a {
 					marigi-top:20px;
 					input{
 						height:20px;
-						margin-top:20px;
+						margin-top:10px;
 					}
 			 }
 			 

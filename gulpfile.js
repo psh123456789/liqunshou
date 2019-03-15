@@ -6,7 +6,7 @@ const gulp = require('gulp'),
 gulp.task('sass',function(){
 	gulp.src('./src/sass/*.scss')
 	.pipe(sass())
- 	//.pipe(cssnano())
+ 	.pipe(cssnano())
 	.pipe(rename({'suffix' : '.min'}))
 	.pipe(gulp.dest('./dist'));
 })
